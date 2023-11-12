@@ -1,0 +1,1 @@
+clang++ -fpass-plugin=`echo build/deadCodeElimination/deadCodeEliminationPass.*` sample.cpp
