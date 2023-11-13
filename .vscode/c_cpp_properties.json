@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${default}",
+                "/Users/tonyvarghese/Study/Compilers/LearnAdvancedCompilers/include/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"
+            ],
+            "intelliSenseMode": "macos-clang-arm64",
+            "cppStandard": "c++17",
+            "cStandard": "c17",
+            "compilerPath": "/opt/homebrew/opt/llvm/bin/clang"
+        }
+    ],
+    "version": 4
+}
