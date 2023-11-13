@@ -32,5 +32,4 @@
 *.app
 
 build/*
-*.sh
 .DS_Store
