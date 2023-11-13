@@ -33,4 +33,4 @@
 
 build/*
 *.sh
-
+.DS_Store
