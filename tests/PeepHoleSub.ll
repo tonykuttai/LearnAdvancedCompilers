@@ -1,6 +1,4 @@
-; RUN:  opt --enable-new-pm=0 -load %shlibdir/libMBASub%shlibext -legacy-mba-sub -S %s\
-; RUN:  | FileCheck %s
-; RUN:  opt -load-pass-plugin=%shlibdir/libMBASub%shlibext -passes="mba-sub" -S %s \
+; RUN:  opt -load-pass-plugin=%shlibdir/libPeepHoleSub%shlibext -passes="PeepHoleSub" -S %s \
 ; RUN:  | FileCheck %s
 
 define signext i32 @foo(i32 signext, i32 signext, i32 signext, i32 signext) {
